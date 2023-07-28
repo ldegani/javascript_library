@@ -159,12 +159,3 @@ function deleteCard(event) {
     button.parentElement.remove();
   }
 }
-
-
-
-
-const book00 = new Book('The Hobbit', 'J.R.R Tolkien', 294, true)
-const book01 = new Book('A Song of Ice and Fire', 'George R.R. Martin', 835, false)
-// const book02 = new Book('The Hunger Games', 'Suzanne Collins', 374, 'read')
-
-// myLibrary = [book00, book01];
