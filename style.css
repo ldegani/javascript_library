@@ -131,6 +131,7 @@ main {
 .container-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, max-content));
+  grid-template-rows: max-content;
   justify-items: center;
   gap: 1rem;
 }

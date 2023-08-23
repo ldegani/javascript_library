@@ -22,12 +22,14 @@ formInputs.addEventListener('submit', (e) => {
   modalForm.style.display = 'none';
 })
 
-function Book(title, author, pages, read) {
-  this.title = title;
-  this.author = author;
-  this.pages = pages;
-  this.read = read;
-  this.index = null;
+class Book {
+  constructor(title, author, pages, read) {
+    this.title = title;
+    this.author = author;
+    this.pages = pages;
+    this.read = read;
+    this.index = null;
+  }
 }
 
 function clearForm() {
